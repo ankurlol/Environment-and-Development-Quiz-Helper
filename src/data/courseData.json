@@ -1,0 +1,1932 @@
+{
+  "courseInfo": {
+    "title": "NPTEL Online Certification Course",
+    "courseName": "Environment and Development",
+    "courseCode": "NOC26-HS (July-Oct 2026)",
+    "instructor": "Indian Institute of Technology Guwahati (IIT Guwahati)",
+    "totalWeeks": 12,
+    "description": "Official practice platform for NPTEL Environment and Development. Practice assignments week-by-week or simulate the final NPTEL Computer Based Test (CBT) with all questions randomized."
+  },
+  "questions": [
+    {
+      "id": "w1_q1",
+      "week": 1,
+      "assignment": "Assignment – Week I",
+      "question": "The concept ‘sustainable development’ was described by the 1987 Brundtland Commission Report as _______________.",
+      "options": [
+        "Development that meets the needs of the present",
+        "Development that meets the needs of the individual",
+        "Development that meets the needs of the present without compromising the ability of future generations to meet their own needs",
+        "Development that meets the needs of the past"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In 1987, the UN Brundtland Commission (World Commission on Environment and Development) defined sustainable development as: 'development that meets the needs of the present without compromising the ability of future generations to meet their own needs.'",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w1_q2",
+      "week": 1,
+      "assignment": "Assignment – Week I",
+      "question": "Ecology refers to ________________.",
+      "options": [
+        "The interrelations of human beings and animals",
+        "The interrelations of human beings and machine",
+        "The interrelations of flora and fauna",
+        "The interrelations of human beings, flora, and fauna with elements of the natural and the physical environment-biotic and non-biotic components"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Ecology is the scientific study of the interactions among organisms (biotic: humans, flora, fauna) and their biophysical environment (abiotic: air, water, soil, climate).",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w1_q3",
+      "week": 1,
+      "assignment": "Assignment – Week I",
+      "question": "In 1987, the World Commission on Environment and Development (WCED), which had been set up in 1983, published a report entitled ________________ that came to be known as the Brundtland Report.",
+      "options": [
+        "Our Common Future",
+        "Our Common Past",
+        "Our Common Wealth",
+        "Our Common Agenda"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The landmark 1987 report by the WCED chaired by Gro Harlem Brundtland was formally titled 'Our Common Future'.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w1_q4",
+      "week": 1,
+      "assignment": "Assignment – Week I",
+      "question": "Animate world involves ____________.",
+      "options": [
+        "Objects, machines, and the physical world around us",
+        "Plants and animals including humans",
+        "Only flora",
+        "Only Fauna"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The animate world comprises all living organisms (plants, animals, microorganisms, and humans) possessing life processes, contrasting with the inanimate physical world.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w1_q5",
+      "week": 1,
+      "assignment": "Assignment – Week I",
+      "question": "____________ refers to a relative balance of nutrient cycles, energy flows, and species and composition in ecosystems.",
+      "options": [
+        "Ecosystem homeostatic",
+        "Ecosystem heterostatic",
+        "Ecosystem homeostasis",
+        "Ecosystem heterostasis"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Ecosystem homeostasis is the state of dynamic equilibrium maintained by natural feedback mechanisms regulating nutrient cycling, energy flux, and species populations.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w1_q6",
+      "week": 1,
+      "assignment": "Assignment – Week I",
+      "question": "In exponential population growth, growth rate is ________________ to the population size or number.",
+      "options": [
+        "Directly proportional",
+        "Indirectly proportional",
+        "Inversely proportional",
+        "None of these"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In exponential (Malthusian) population growth represented by dN/dt = rN, the per capita rate of increase is constant, meaning the total population growth rate is directly proportional to population size N.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w1_q7",
+      "week": 1,
+      "assignment": "Assignment – Week I",
+      "question": "The complete form of S-shaped growth curve is _____________.",
+      "options": [
+        "Solo growth curve",
+        "Singular growth curve",
+        "Symbiotic growth curve",
+        "Sigmoid growth curve"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The S-shaped logistic population growth curve reflecting carrying capacity (K) is known as the Sigmoid growth curve.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w1_q8",
+      "week": 1,
+      "assignment": "Assignment – Week I",
+      "question": "In which city was the Earth Summit organized?",
+      "options": [
+        "Paris, France",
+        "Doha, Qatar",
+        "Rio de Janeiro, Brazil",
+        "Kyoto, Japan"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The United Nations Conference on Environment and Development (UNCED), popularly known as the Earth Summit, was held in Rio de Janeiro, Brazil in June 1992.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w1_q9",
+      "week": 1,
+      "assignment": "Assignment – Week I",
+      "question": "Which of the following objective is not part of the UK’s Sustainable Development Strategy published in May 1999?",
+      "options": [
+        "Effective protection of the environment",
+        "Prudent use of natural resources",
+        "Technological progress which recognises the needs of everyone",
+        "Maintenance of high and stable levels of economic growth & employment"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The UK's 1999 Strategy ('A better quality of life') listed 'Social progress which recognises the needs of everyone', NOT 'Technological progress'. The four objectives were: social progress, environmental protection, prudent use of resources, and high/stable economic growth.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w1_q10",
+      "week": 1,
+      "assignment": "Assignment – Week I",
+      "question": "Which of the following statement is true about ‘development’?",
+      "options": [
+        "It is a process that creates growth",
+        "It is a process that creates growth progress",
+        "It is a process that creates the addition of physical, economic, environmental, social and demographic components",
+        "All of these"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Development is a multidimensional process encompassing economic growth, qualitative progress, and the evolution of physical, institutional, environmental, and demographic structures.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w2_q1",
+      "week": 2,
+      "assignment": "Assignment – Week II",
+      "question": "The book Silent Spring published in 1962, sparked the beginning of _______________.",
+      "options": [
+        "Liberal environmentalism",
+        "Modern environmentalism",
+        "Radical environmentalism",
+        "Traditional environmentalism"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Rachel Carson's 1962 book 'Silent Spring', which documented the adverse environmental effects of synthetic pesticides like DDT, is widely recognized as sparking the modern environmental movement.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w2_q2",
+      "week": 2,
+      "assignment": "Assignment – Week II",
+      "question": "_____________ claims that living things other than humans, and the natural environment as a whole, are deserving of consideration in reasoning about the morality of political, economic, and social policies.",
+      "options": [
+        "Environmentalism",
+        "Idealism",
+        "Materialism",
+        "Utilitarianism"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Environmentalism in philosophy and political theory asserts that the non-human natural world and ecosystems possess moral significance that must be considered in socio-economic policy decisions.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w2_q3",
+      "week": 2,
+      "assignment": "Assignment – Week II",
+      "question": "_______________ focuses mainly on the negative effects that environmental degradation has on human beings and their interests, including their interests in health, recreation, and quality of life.",
+      "options": [
+        "Anthropocentrism",
+        "Biocentrism",
+        "Environmentalism",
+        "Ecofeminism"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Anthropocentrism is a human-centered worldview evaluating environmental issues primarily through the lens of human wellbeing, human health, and utility.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w2_q4",
+      "week": 2,
+      "assignment": "Assignment – Week II",
+      "question": "____________ claims that nature has an intrinsic moral worth that does not depend on its usefulness to human beings, and it is this intrinsic worth that gives rise directly to obligations to the environment.",
+      "options": [
+        "Anthropocentrism",
+        "Biocentrism",
+        "Environmentalism",
+        "Realism"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Biocentrism (life-centered ethics) asserts that all living beings and natural entities have intrinsic moral worth independent of their utility or instrumental value to human beings.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w2_q5",
+      "week": 2,
+      "assignment": "Assignment – Week II",
+      "question": "Who authored the book Economics of the Coming Spaceship Earth (1966)?",
+      "options": [
+        "Aldo Leopold",
+        "Rachel Carson",
+        "Kenneth E. Boulding",
+        "Paul Ehrlich"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Kenneth E. Boulding wrote the seminal 1966 essay 'The Economics of the Coming Spaceship Earth', introducing the contrast between an open 'cowboy economy' and a cyclical, closed 'spaceman economy'.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w2_q6",
+      "week": 2,
+      "assignment": "Assignment – Week II",
+      "question": "In which year was the Intergovernmental Panel on Climate Change (IPCC) established?",
+      "options": [
+        "1968",
+        "1978",
+        "1988",
+        "1998"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The IPCC was established in 1988 jointly by the World Meteorological Organization (WMO) and the United Nations Environment Programme (UNEP).",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w2_q7",
+      "week": 2,
+      "assignment": "Assignment – Week II",
+      "question": "The term ‘ecological refugees’ refers to ________________________.",
+      "options": [
+        "Unemployed people who eke out a living in the cities on the leavings of omnivores prosperity",
+        "Peasants-turned-slum dwellers who eke out a living in the cities on the leavings of omnivores prosperity",
+        "Displaced people who eke out a living in the cities on the leavings of omnivores prosperity",
+        "None of these"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In Madhav Gadgil and Ramachandra Guha's sociological analysis of India ('Ecology and Equity'), 'ecological refugees' are defined as peasants-turned-slum dwellers displaced from their resource base who eke out a living in cities on the leavings of omnivore prosperity.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w2_q8",
+      "week": 2,
+      "assignment": "Assignment – Week II",
+      "question": "In which year the Bhopal disaster, also referred to as the ‘Bhopal gas tragedy’ occurred?",
+      "options": [
+        "1996",
+        "1984",
+        "1981",
+        "2003"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Bhopal gas tragedy occurred on the night of 2–3 December 1984 at the Union Carbide India Limited pesticide plant in Bhopal, Madhya Pradesh.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w2_q9",
+      "week": 2,
+      "assignment": "Assignment – Week II",
+      "question": "The complete form of NEPA (1969) is ______________.",
+      "options": [
+        "The National Employment Policy Act",
+        "The National Environmental Policy Act",
+        "The National Education Policy Act",
+        "None of these"
+      ],
+      "correctAnswer": 1,
+      "explanation": "NEPA stands for the National Environmental Policy Act, a foundational United States environmental law enacted in 1969 that mandated Environmental Impact Statements (EIS).",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w2_q10",
+      "week": 2,
+      "assignment": "Assignment – Week II",
+      "question": "Prior to the 1960s, environmentalism focused on _____________ and conservation of resources.",
+      "options": [
+        "Preservation of culture",
+        "Preservation of wilderness",
+        "Preservation of food",
+        "Preservation of water"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Early environmentalism (pre-1960s) primarily centered on wilderness preservation, wildlife sanctuaries, national parks (Muir / Pinchot era), and natural resource conservation.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w3_q1",
+      "week": 3,
+      "assignment": "Assignment – Week III",
+      "question": "The term ‘ecofeminism’ was coined by ____________.",
+      "options": [
+        "Françoise d’Eaubonne",
+        "Vandana Shiva",
+        "Greta Gaard",
+        "Maria Mies"
+      ],
+      "correctAnswer": 0,
+      "explanation": "French feminist writer Françoise d’Eaubonne coined the term 'écoféminisme' in 1974 in her book 'Le Féminisme ou la Mort' (Feminism or Death).",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w3_q2",
+      "week": 3,
+      "assignment": "Assignment – Week III",
+      "question": "Who explored the historical origins of modern ‘reductionist science’?",
+      "options": [
+        "Mary grey",
+        "Greta Gard",
+        "Susan Griffin",
+        "Vandana Shiva"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Dr. Vandana Shiva critically analyzed the historical rise of Western reductionist patriarchal science and its devastating ecological consequences in works like 'Staying Alive: Women, Ecology, and Survival in India'.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w3_q3",
+      "week": 3,
+      "assignment": "Assignment – Week III",
+      "question": "Who represented ‘a realist and a materialist connection’ between feminism and ecology?",
+      "options": [
+        "Alice Walker",
+        "Mary Mellor",
+        "Nandini Sundar",
+        "Mary Oliver"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mary Mellor is renowned for formulating a socialist materialist feminist perspective connecting women's unpaid bodily and reproductive labor with ecological sustainability.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w3_q4",
+      "week": 3,
+      "assignment": "Assignment – Week III",
+      "question": "Which movement could be construed as a foundation of feminist political ecology in India?",
+      "options": [
+        "Appiko movement",
+        "Satyagraha movement",
+        "Chipko movement",
+        "Narmada movement"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Chipko Movement (started in the early 1970s in the Garhwal Himalayas), where rural women hugged trees to prevent deforestation, is internationally considered the foundation of feminist political ecology and ecofeminism in India.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w3_q5",
+      "week": 3,
+      "assignment": "Assignment – Week III",
+      "question": "Who authored the book The German Ideology?",
+      "options": [
+        "Max Weber and Emile Durkheim",
+        "Emile Durkheim and Karl Mannheim",
+        "Friedrich Engels and Karl Marx",
+        "Thomas Kuhn and Karl Popper"
+      ],
+      "correctAnswer": 2,
+      "explanation": "'The German Ideology' (Die deutsche Ideologie) was written by Karl Marx and Friedrich Engels in 1845–1846, formulating the materialist conception of history.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w3_q6",
+      "week": 3,
+      "assignment": "Assignment – Week III",
+      "question": "The second stage of ecological revolution is called ___________.",
+      "options": [
+        "Ecosocialist phase",
+        "Ecogender studies",
+        "Ecofeminism",
+        "Practical Materialism"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In feminist ecological philosophy, the second phase of ecological revolution is identified as Ecofeminism, linking patriarchal social structures directly to ecological destruction.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w3_q7",
+      "week": 3,
+      "assignment": "Assignment – Week III",
+      "question": "According to which framework, nature becomes ‘stuff of domination’?",
+      "options": [
+        "Feminist political ecology",
+        "Ecology and gender",
+        "Oppressive patriarchal conceptual frameworks",
+        "None of these"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In ecofeminist philosopher Karen J. Warren's conceptual model, 'oppressive patriarchal conceptual frameworks' employ a logic of domination where both women and nature are conceptualized as the 'stuff of domination'.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w3_q8",
+      "week": 3,
+      "assignment": "Assignment – Week III",
+      "question": "Who popularized the materialist ecofeminist perspective?",
+      "options": [
+        "Western ecofeminists",
+        "Black ecofeminists",
+        "Southern ecofeminists",
+        "None of these"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Southern ecofeminists (from Asia, Africa, and Latin America such as Bina Agarwal and Vandana Shiva) popularized materialist ecofeminism / feminist environmentalism rooted in concrete material conditions and women's daily dependence on nature.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w3_q9",
+      "week": 3,
+      "assignment": "Assignment – Week III",
+      "question": "The statement ‘ecofeminism has its origin in the pre-patriarchal biocentric religious perspective’ was advocated by __________.",
+      "options": [
+        "Starhawk",
+        "Mary Daly",
+        "Chris Cuomo",
+        "Carol P. Christ"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Starhawk (Miriam Simos), an author and activist in spiritual and cultural ecofeminism, advocated the view that ecofeminism traces its deep origins to pre-patriarchal biocentric earth-based religious spiritualities.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w3_q10",
+      "week": 3,
+      "assignment": "Assignment – Week III",
+      "question": "What do radical ecofeminists contend with?",
+      "options": [
+        "Patriarchal society does not equate nature and women",
+        "Patriarchal society equates nature and women in order to degrade both",
+        "Ecofeminism is a spiritual movement",
+        "Science is not a mere objectivity, but rather is embedded in power relations"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Radical ecofeminists contend that patriarchal ideology creates an ideological equation between nature and women in order to systematically dominate, exploit, and degrade both.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w4_q1",
+      "week": 4,
+      "assignment": "Week 4: Assignment 4",
+      "question": "Who among the following authored the book Wilderness and the American Mind, published in 1967?",
+      "options": [
+        "Lynn White",
+        "Roderick Nash",
+        "Murray Bookchin",
+        "Rachel Carson"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Roderick Nash published the influential intellectual history 'Wilderness and the American Mind' in 1967, analyzing changing American attitudes toward wilderness.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w4_q2",
+      "week": 4,
+      "assignment": "Week 4: Assignment 4",
+      "question": "What is the Judeo-Christian belief about human-nature interactions?",
+      "options": [
+        "Man was meant to dominate nature",
+        "Nature was meant to dominate man",
+        "Man was meant to pacify nature",
+        "Nature was meant to pacify man"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Historically, Lynn White and environmental historians noted that traditional Western Judeo-Christian theology interpreted Genesis as granting humans dominion and command over nature ('Man was meant to dominate nature').",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w4_q3",
+      "week": 4,
+      "assignment": "Week 4: Assignment 4",
+      "question": "What is the dominant environmental tradition in North America?",
+      "options": [
+        "Free flowing rivers and natural forests are cherished by environmentalists for their beauty and commercial value",
+        "Free flowing rivers and natural forests are cherished by environmentalists for cultural and commercial value",
+        "Free flowing rivers and natural forests are cherished by environmentalists for their beauty and ecological value",
+        "None of these"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In North America, the preservationist tradition cherishes free-flowing rivers and untouched natural forests for their intrinsic beauty and ecological value.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w4_q4",
+      "week": 4,
+      "assignment": "Week 4: Assignment 4",
+      "question": "Gandhian concept of environmentalism relies on ________________.",
+      "options": [
+        "Social and religious viewpoints",
+        "Moral and religious viewpoints",
+        "Moral and cultural viewpoints",
+        "Political and religious viewpoints"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mahatma Gandhi's environmental philosophy is fundamentally grounded in moral and religious/spiritual viewpoints—emphasizing non-violence (Ahimsa), self-restraint (Swaraj), and limitation of wants.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w4_q5",
+      "week": 4,
+      "assignment": "Week 4: Assignment 4",
+      "question": "What does Sarvodaya signifies?",
+      "options": [
+        "The awakening or liberation of one and all without exception",
+        "The awakening of humanity along with other species in the earth",
+        "Protection of nature",
+        "All of these"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Sarvodaya (universal uplift) encompasses the liberation and welfare of all humans without exception, extending compassion to other living species and protecting nature.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w4_q6",
+      "week": 4,
+      "assignment": "Week 4: Assignment 4",
+      "question": "What does social ecology claim?",
+      "options": [
+        "The environmental crisis is a result of the non-hierarchical organization of power and the authoritarian mentality rooted in the structures of our society",
+        "The environmental crisis is a result of the hierarchical organization of power and the authoritarian mentality rooted in the structures of our society",
+        "The environmental crisis is a result of the non-hierarchical organization of power and the colonial mentality rooted in the structures of our society",
+        "The environmental crisis is a result of the hierarchical organization of power and the colonial mentality rooted in the structures of our society"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Murray Bookchin's Social Ecology claims that ecological problems stem directly from deep-seated social problems—specifically the hierarchical organization of power and the authoritarian mindset of human domination over human, which is then projected onto nature.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w4_q7",
+      "week": 4,
+      "assignment": "Week 4: Assignment 4",
+      "question": "Some people from the Third World express a suspicion that deep ecology is a new variant of Western domination and ______________.",
+      "options": [
+        "Modernism",
+        "Post-modernism",
+        "Colonialism",
+        "Neocolonialism"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Ramachandra Guha and Third World scholars famously critiqued deep ecology's wilderness obsession as a form of green neocolonialism that disenfranchises poor rural peasants in developing nations.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w4_q8",
+      "week": 4,
+      "assignment": "Week 4: Assignment 4",
+      "question": "Which of the following tribes, guided by their shamans, make use of various myths and rituals that prevent over-hunting and over-fishing?",
+      "options": [
+        "Red Indians",
+        "Tukano Indians",
+        "Ayoreo",
+        "Yanomami"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Tukano Indians of the Northwest Amazon, studied by anthropologists like Gerardo Reichel-Dolmatoff, rely on shamans and cultural taboos/rituals to manage resources and prevent over-hunting and over-fishing.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w4_q9",
+      "week": 4,
+      "assignment": "Week 4: Assignment 4",
+      "question": "Arne Naess’s concept of human self-realization refers to ______________.",
+      "options": [
+        "The ecological others",
+        "The ecological community",
+        "The ecological self",
+        "None of these"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Arne Naess (founder of Deep Ecology) defined Self-realization not as narrow ego fulfillment, but as expanding human consciousness to encompass the 'ecological Self' (Self with a capital S), identifying with all living beings.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w4_q10",
+      "week": 4,
+      "assignment": "Week 4: Assignment 4",
+      "question": "Which of the following best characterizes shallow ecology?",
+      "options": [
+        "It is anthropocentric, or human centered",
+        "It views humans as above or outside of nature, as the source of all value",
+        "It ascribes only instrumental, or ‘use’, value to nature",
+        "All of these"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Shallow ecology is anthropocentric, views humans as superior/outside nature, and values natural resources strictly for their instrumental and economic utility to humanity.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w5_q1",
+      "week": 5,
+      "assignment": "Week 5: Assignment 5",
+      "question": "Which of the following was acknowledged by the World Commission on Environment and Development (WCED) to reconcile human affairs with natural law?",
+      "options": [
+        "Our cultural heritages can reinforce our economic interests and survival imperatives",
+        "Our cultural and spiritual heritages can reinforce our economic interests and survival imperatives",
+        "Our spiritual heritages can reinforce our economic interests and survival imperatives",
+        "None of these"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The WCED acknowledged that 'our cultural and spiritual heritages can reinforce our economic interests and survival imperatives' in reconciling human actions with natural ecology.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w5_q2",
+      "week": 5,
+      "assignment": "Week 5: Assignment 5",
+      "question": "What have religion taught us historically?",
+      "options": [
+        "To perceive and to act on human nature in terms of particular human interests, beliefs, and social structures",
+        "To perceive and to act on human nature in terms of particular human beliefs, values and political structures",
+        "To perceive and to act on nonhuman nature in terms of particular human interests, beliefs, and social structures",
+        "To perceive and to act on nonhuman nature in terms of particular human beliefs, values and political structures"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Historically, world religions shaped human cosmology to perceive and act on nonhuman nature through the filter of particular human interests, beliefs, and social institutions.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w5_q3",
+      "week": 5,
+      "assignment": "Week 5: Assignment 5",
+      "question": "What is the general consensus in Western monotheistic religions about religion and ecology?",
+      "options": [
+        "We should never forget that nature was human’s creation, and ultimately not God’s property",
+        "We should never forget that nature was God’s creation, and ultimately God’s property, not our own",
+        "We should forget that nature was God's creation, and ultimately man's property",
+        "None of these"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In monotheistic theology (Judaism, Christianity, Islam), nature is God’s creation and sovereign property, positioning humans as trustees and stewards rather than absolute owners.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w5_q4",
+      "week": 5,
+      "assignment": "Week 5: Assignment 5",
+      "question": "Which of the following is a Buddhist text?",
+      "options": [
+        "Vedas",
+        "Agamas",
+        "Sutta-Nipata",
+        "Torah"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Sutta-Nipata is an ancient Buddhist scripture within the Khuddaka Nikaya of the Pali Canon containing core discourses of the Buddha.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w5_q5",
+      "week": 5,
+      "assignment": "Week 5: Assignment 5",
+      "question": "In which of the following Vedas does the idea of the Divine Being as the one underlying power of unity is expressed?",
+      "options": [
+        "Atharvaveda",
+        "Rigveda",
+        "Samaveda",
+        "Yajurveda"
+      ],
+      "correctAnswer": 3,
+      "explanation": "In Vedic traditions, the Yajurveda explicitly articulates the Divine Being (Ishvara/Brahman) as the unified underlying spiritual reality pervading all cosmos and natural elements.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w5_q6",
+      "week": 5,
+      "assignment": "Week 5: Assignment 5",
+      "question": "Who among the following founded the Bishnoi sect?",
+      "options": [
+        "Guru Ramakrishna Paramhansa",
+        "Guru Maharaj Jambaji",
+        "Raja Ram Mohan Roy",
+        "Iswar Chandra Vidyasagar"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Guru Maharaj Jambaji (Guru Jambheshwar) founded the Bishnoi sect in 1485 in Rajasthan, instituting 29 principles including strict prohibitions against killing animals and cutting green trees (especially Khejri).",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w5_q7",
+      "week": 5,
+      "assignment": "Week 5: Assignment 5",
+      "question": "Which of the following centuries marks the emergence of the ‘scientific revolution’?",
+      "options": [
+        "16th century",
+        "17th century",
+        "18th century",
+        "19th century"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Historians date the high period of the Scientific Revolution (Galileo, Bacon, Descartes, Newton) to the 17th century.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w5_q8",
+      "week": 5,
+      "assignment": "Week 5: Assignment 5",
+      "question": "Which of the following is viewed as being cast in a Christian theological matrix?",
+      "options": [
+        "Orthodox Western science",
+        "Modern Western science",
+        "Traditional Eastern Science",
+        "Traditional ecological knowledge"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Historian Lynn White Jr. argued that Modern Western science was cast in a matrix of Christian theology, inheriting its dualistic framework of human separation and mastery over nature.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w5_q9",
+      "week": 5,
+      "assignment": "Week 5: Assignment 5",
+      "question": "The essay ‘The Historical Roots of our Ecological Crisis’ was written by ___________.",
+      "options": [
+        "Lynn White",
+        "Rachel Carson",
+        "Christophe Munier",
+        "None of these"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Lynn White Jr. published the landmark 1967 essay 'The Historical Roots of our Ecological Crisis' in Science, linking modern environmental degradation to religious worldviews.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w5_q10",
+      "week": 5,
+      "assignment": "Week 5: Assignment 5",
+      "question": "Which of the following period marks the emergence of ‘industrial revolution’?",
+      "options": [
+        "16th century",
+        "17th century",
+        "18th century",
+        "19th century"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Industrial Revolution emerged in Great Britain during the mid-to-late 18th century (c. 1760 onwards) with mechanization and steam power.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w6_q1",
+      "week": 6,
+      "assignment": "Week 6: Assignment 6",
+      "question": "What comes under the state property regime, under natural resource management?",
+      "options": [
+        "National forest/national park",
+        "Hospitals",
+        "Shopping malls",
+        "All of these"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Under natural resource property regimes (res publicae), national forests, protected wildlife reserves, and national parks are held and managed by the state.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w6_q2",
+      "week": 6,
+      "assignment": "Week 6: Assignment 6",
+      "question": "What does ‘conservation of natural resources’ mean?",
+      "options": [
+        "Wise use of economic resources",
+        "Wise use of financial resources",
+        "Wise use of economic and financial resources",
+        "Wise use of the earth’s resources by humanity"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Conservation of natural resources is fundamentally defined as the wise, prudent, and sustainable management of the earth’s natural resources by humanity.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w6_q3",
+      "week": 6,
+      "assignment": "Week 6: Assignment 6",
+      "question": "What is/are the methods of soil conservation?",
+      "options": [
+        "Crop rotation",
+        "Mulching",
+        "Strip cropping",
+        "All of these"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Standard agronomic soil conservation practices include crop rotation (restoring soil nitrogen), mulching (retaining moisture and preventing erosion), and strip cropping (controlling runoff).",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w6_q4",
+      "week": 6,
+      "assignment": "Week 6: Assignment 6",
+      "question": "The book ‘Governing the Commons’ was authored by __________.",
+      "options": [
+        "Warder Clyde",
+        "Sonia Altizer",
+        "John Alcock",
+        "Elinor Ostrom"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Nobel Laureate Elinor Ostrom authored 'Governing the Commons: The Evolution of Institutions for Collective Action' in 1990, demonstrating how local communities successfully manage common-pool resources without state or market privatization.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w6_q5",
+      "week": 6,
+      "assignment": "Week 6: Assignment 6",
+      "question": "Which of the following statement is true about sustainable development?",
+      "options": [
+        "Sustainable development leads to equitable distribution of resources",
+        "Sustainable development leads to inequitable distribution of resources",
+        "Sustainable natural resource management leads to controlled exploitation of resources",
+        "None of these"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Sustainable natural resource management operates by controlling and regulating resource harvesting/exploitation within sustainable ecological yield limits.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w6_q6",
+      "week": 6,
+      "assignment": "Week 6: Assignment 6",
+      "question": "What does ‘dwelling perspective’ of Tim Ingold refers?",
+      "options": [
+        "Practical engagement of humans with others of the dwelt-in ecosystem",
+        "Engagement of women in the ecosystem",
+        "Engagement of families in the ecosystem",
+        "Engagement of communities in the ecosystem"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Social anthropologist Tim Ingold introduced the 'dwelling perspective', arguing that human knowledge and culture arise from practical, immersive bodily engagement with others in the lived-in ecosystem.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w6_q7",
+      "week": 6,
+      "assignment": "Week 6: Assignment 6",
+      "question": "The community-based natural resource management (CBNRM) approach combines conservation objectives with",
+      "options": [
+        "The generation of economic benefits",
+        "The generation of social benefits",
+        "The generation of psychological benefits",
+        "The generation of political benefits"
+      ],
+      "correctAnswer": 0,
+      "explanation": "CBNRM pairs ecological conservation with sustainable local economic incentives and livelihood generation for community custodians.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w6_q8",
+      "week": 6,
+      "assignment": "Week 6: Assignment 6",
+      "question": "What are the example/s of tragedy of the commons?",
+      "options": [
+        "Shared common grazing pasture",
+        "Over fishing",
+        "Deforestation",
+        "All of these"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Garrett Hardin's 'Tragedy of the Commons' illustrates how open-access shared resources (pastures, fisheries, forests, atmosphere) are degraded when individual users maximize personal extraction.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w6_q9",
+      "week": 6,
+      "assignment": "Week 6: Assignment 6",
+      "question": "The terms ‘resource management’ or ‘environmental management’ first appeared in",
+      "options": [
+        "Late 1950s",
+        "Early 1960s",
+        "Late 1960s",
+        "Early 1970s"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The formal nomenclature and discipline of 'environmental management' and 'resource management' originated in the early 1960s alongside post-war industrial resource concerns.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w6_q10",
+      "week": 6,
+      "assignment": "Week 6: Assignment 6",
+      "question": "When did Environment Protection Act (Environmental Impact Assessment) came into existence?",
+      "options": [
+        "1974",
+        "1980",
+        "1986",
+        "1990"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In India, the umbrella Environment (Protection) Act was passed in 1986 in the immediate aftermath of the 1984 Bhopal gas tragedy.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w7_q1",
+      "week": 7,
+      "assignment": "Week 7: Assignment 7",
+      "question": "Who proposed the concept of ‘primitive accumulation’?",
+      "options": [
+        "Philip Lake",
+        "Karl Marx",
+        "E.R. Roe Thompson",
+        "Alfred Lothar Wegener"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Karl Marx conceptualized 'primitive accumulation' (ursprüngliche Akkumulation) in Das Kapital to describe the historical process of divorcing producers from their means of production and land.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w7_q2",
+      "week": 7,
+      "assignment": "Week 7: Assignment 7",
+      "question": "Where is the Sariska Tiger Reserve situated?",
+      "options": [
+        "Madhya Pradesh",
+        "Rajasthan",
+        "Kerala",
+        "Uttar Pradesh"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sariska Tiger Reserve is located in the Alwar district of Rajasthan.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w7_q3",
+      "week": 7,
+      "assignment": "Week 7: Assignment 7",
+      "question": "What is the hypothesis behind people’s relocation from PAs (Protected Areas)?",
+      "options": [
+        "Human use of their resources causes their degradation over time",
+        "People and wildlife cannot coexist",
+        "If natural areas are to be safeguarded, people will have to be removed",
+        "All of these"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Fortress conservation policies assume that human presence degrades habitats, humans and wildlife cannot coexist, and inviolate protected zones require forced displacement of local dwellers.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w7_q4",
+      "week": 7,
+      "assignment": "Week 7: Assignment 7",
+      "question": "Who developed the concept of ‘accumulation by dispossession’?",
+      "options": [
+        "David Harvey",
+        "Karl Marx",
+        "Max Webber",
+        "None of these"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Geographer David Harvey formulated the concept of 'accumulation by dispossession' in 2003 ('The New Imperialism') to describe modern neoliberal wealth extraction via land acquisition, privatization, and forced evictions.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w7_q5",
+      "week": 7,
+      "assignment": "Week 7: Assignment 7",
+      "question": "Who has authored the book In Dispossession without Development?",
+      "options": [
+        "David Harvey",
+        "Michael Levien",
+        "Jim Glassman",
+        "Karl Marx"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sociologist Michael Levien authored 'Dispossession without Development: Land Grabs in Neoliberal India' (2018), documenting Special Economic Zones (SEZs) in Rajasthan.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w7_q6",
+      "week": 7,
+      "assignment": "Week 7: Assignment 7",
+      "question": "The Right to Fair Compensation and Transparency in Land Acquisition, Rehabilitation and Resettlement Act was passed in _____.",
+      "options": [
+        "2010",
+        "2012",
+        "2013",
+        "2015"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The landmark LARR Act (replacing the colonial 1894 Land Acquisition Act) was passed by the Indian Parliament in 2013.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w7_q7",
+      "week": 7,
+      "assignment": "Week 7: Assignment 7",
+      "question": "When was the ‘Water Act’ implemented in India?",
+      "options": [
+        "1974",
+        "1969",
+        "1980",
+        "1985"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Water (Prevention and Control of Pollution) Act was enacted in India in 1974.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w7_q8",
+      "week": 7,
+      "assignment": "Week 7: Assignment 7",
+      "question": "Air prevention and control of pollution act was implemented in _____.",
+      "options": [
+        "1981",
+        "1995",
+        "2000",
+        "2010"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Air (Prevention and Control of Pollution) Act was enacted in India in 1981 to implement decisions taken at the 1972 Stockholm Conference.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w7_q9",
+      "week": 7,
+      "assignment": "Week 7: Assignment 7",
+      "question": "Where does the Van Gujjars belong to?",
+      "options": [
+        "Central part of the Indian Himalayas",
+        "South India",
+        "North-east",
+        "Jammu and Kashmir"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Van Gujjars are a nomadic pastoralist forest community inhabiting the central part of the Indian Himalayas (Uttarakhand and Himachal Pradesh).",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w7_q10",
+      "week": 7,
+      "assignment": "Week 7: Assignment 7",
+      "question": "What is Environmental Impact Assessment (EIA)?",
+      "options": [
+        "Used to identify the environmental, social and economic impacts of a project prior to decision-making.",
+        "Aims to predict environmental impacts at an early stage in project planning and design",
+        "Find ways and means to reduce adverse impacts, shape projects to suit the local environment",
+        "All of these"
+      ],
+      "correctAnswer": 3,
+      "explanation": "EIA is a comprehensive statutory planning tool used to predict impacts, assess socioeconomic consequences prior to project clearance, and design mitigation and environmental management plans.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w8_q1",
+      "week": 8,
+      "assignment": "Week 8: Assignment 8",
+      "question": "When was the Land Acquisition Act (LAA) amended?",
+      "options": [
+        "1970",
+        "1980",
+        "1984",
+        "1986"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The colonial Land Acquisition Act of 1894 underwent major comprehensive amendments in 1984 to streamline compensation timelines and acquisition procedures.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w8_q2",
+      "week": 8,
+      "assignment": "Week 8: Assignment 8",
+      "question": "When was the Coal Bearing Areas (Acquisition and Development) Act passed in India?",
+      "options": [
+        "1950",
+        "1957",
+        "1960",
+        "1965"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The Coal Bearing Areas (Acquisition and Development) Act was passed in India in 1957 to establish state control and acquisition over coal-bearing lands.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w8_q3",
+      "week": 8,
+      "assignment": "Week 8: Assignment 8",
+      "question": "What is the main issue at stake regarding the construction of large dams?",
+      "options": [
+        "Resettlement and rehabilitation",
+        "Migration and resettlement",
+        "Rehabilitation and reconstruction",
+        "None of these"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The central socioeconomic and human rights dispute surrounding mega-dams (such as Sardar Sarovar and Tehri) is the Resettlement and Rehabilitation (R&R) of displaced river valley communities.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w8_q4",
+      "week": 8,
+      "assignment": "Week 8: Assignment 8",
+      "question": "What is the primary concern surrounding the construction of huge dams?",
+      "options": [
+        "Migration and resettlement",
+        "Rehabilitation and reconstruction",
+        "Resettlement and rehabilitation",
+        "All of these"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Resettlement and rehabilitation (R&R) remains the primary critical concern due to inadequate compensation, loss of common property resources, and social uprooting.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w8_q5",
+      "week": 8,
+      "assignment": "Week 8: Assignment 8",
+      "question": "Who is the author of the book The Greater Common Good?",
+      "options": [
+        "A.P.J. Abdul Kalam",
+        "Arundhati Roy",
+        "Pt. Jawaharlal Nehru",
+        "Vandana Shiva"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Renowned writer and activist Arundhati Roy authored 'The Greater Common Good' in 1999, powerfully critiquing the Sardar Sarovar Dam and the human cost of big dams in India.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w8_q6",
+      "week": 8,
+      "assignment": "Week 8: Assignment 8",
+      "question": "Who among the following argued that “the general good of all humankind could be pursued by the attainment of knowledge that is useful in life so as to make ourselves the masters and possessors of nature”?",
+      "options": [
+        "Rene Descartes",
+        "Michel Foucault",
+        "Simone de Beauvoir",
+        "Karl Marx"
+      ],
+      "correctAnswer": 0,
+      "explanation": "French philosopher René Descartes famously wrote in 'Discourse on the Method' (1637) that practical science could make humans the 'masters and possessors of nature' (maîtres et possesseurs de la nature).",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w8_q7",
+      "week": 8,
+      "assignment": "Week 8: Assignment 8",
+      "question": "When was the Mapithel dam project approved?",
+      "options": [
+        "1980",
+        "1985",
+        "1990",
+        "2000"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Mapithel Dam (Thoubal Multipurpose Project) in Manipur was approved by the Planning Commission in 1980.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w8_q8",
+      "week": 8,
+      "assignment": "Week 8: Assignment 8",
+      "question": "What effects does resettlement have on indigenous people?",
+      "options": [
+        "Loss of access to common resources",
+        "Loss of civil and human rights",
+        "Both ‘loss of access to common resources’ and ‘loss of civil and human rights’",
+        "Profit in terms of land"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Involuntary resettlement of indigenous communities leads to both severe loss of access to customary common property resources (CPR) and systemic violations of civil and human rights.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w8_q9",
+      "week": 8,
+      "assignment": "Week 8: Assignment 8",
+      "question": "When was the MoU regarding the setting up of Alumina complex signed by SIIL and Government of Orissa?",
+      "options": [
+        "1998",
+        "2000",
+        "2003",
+        "2005"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Memorandum of Understanding (MoU) for the Alumina complex in Lanjigarh/Niyamgiri was signed in 2003.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w8_q10",
+      "week": 8,
+      "assignment": "Week 8: Assignment 8",
+      "question": "Mining-induced displacement and resettlement is primarily _________ issue.",
+      "options": [
+        "Psychological",
+        "Social",
+        "Human rights",
+        "Economic"
+      ],
+      "correctAnswer": 3,
+      "explanation": "While mining displacement has multifaceted dimensions, development economists and policy analysts primarily categorize it as an economic issue tied to livelihood, compensation, and resource extraction.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w9_q1",
+      "week": 9,
+      "assignment": "Week 9: Assignment 9",
+      "question": "What does gender equality refers to?",
+      "options": [
+        "Equal opportunities and special outcomes for women",
+        "Equal opportunities and special outcomes for men",
+        "Equal opportunities and special outcomes for the family",
+        "Equal opportunities and outcomes for both women and men"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Gender equality means that women and men enjoy equal rights, opportunities, resources, voice, and substantive outcomes across all spheres of life.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w9_q2",
+      "week": 9,
+      "assignment": "Week 9: Assignment 9",
+      "question": "What does the term ‘feminism’ mean?",
+      "options": [
+        "Symbolizing collective identity of men sharing similar experiences of oppression",
+        "Symbolizing collective identity of women sharing similar experiences of oppression",
+        "Symbolizing collective identity of women suppressed by men",
+        "Symbolizing collective identity of men suppressed by women experiences of oppression."
+      ],
+      "correctAnswer": 1,
+      "explanation": "In sociological development theory, feminism symbolizes the collective identity and solidarity of women sharing structural experiences of gender-based subordination and oppression.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w9_q3",
+      "week": 9,
+      "assignment": "Week 9: Assignment 9",
+      "question": "What does the WID (Women in development) work plan of UN bodies sought to?",
+      "options": [
+        "Make ‘men’ invisible from workforce",
+        "Make ‘men’ and ‘women’ both invisible from workforce",
+        "Make ‘women’ visible from being invisible workforce",
+        "Make ‘women’ being out of the workforce"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The Women in Development (WID) framework, pioneered in the 1970s, aimed explicitly to make women visible from being an uncounted and invisible workforce in national accounts and development projects.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w9_q4",
+      "week": 9,
+      "assignment": "Week 9: Assignment 9",
+      "question": "The central goal of all the Sustainable Development Goals (SDGs) is _____________.",
+      "options": [
+        "Community development",
+        "Development of women",
+        "Gender equality",
+        "All of these"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In UN sustainability policy, Gender Equality (SDG 5) is recognized as a vital foundational accelerator and cross-cutting central prerequisite across all Sustainable Development Goals.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w9_q5",
+      "week": 9,
+      "assignment": "Week 9: Assignment 9",
+      "question": "What does the GED (Gender, Environment, and Development) approach talk about?",
+      "options": [
+        "Gender and women development",
+        "Gender and environment",
+        "Overall development of the community",
+        "Social construction of gender and the assignment of specific roles to women and men"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The GED (Gender, Environment, and Development) perspective examines how gender is socially constructed and how differential division of labor and power relations mediate human-environment interactions.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w9_q6",
+      "week": 9,
+      "assignment": "Week 9: Assignment 9",
+      "question": "What does the 1992 Rio Declaration on Environment and Development, stress on?",
+      "options": [
+        "Women’s role in community management",
+        "Men’s role in community management",
+        "Women’s role in environmental management and development to achieve sustainable development",
+        "Men and women role in family planning"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Principle 20 of the 1992 Rio Declaration explicitly declares: 'Women have a vital role in environmental management and development. Their full participation is therefore essential to achieve sustainable development.'",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w9_q7",
+      "week": 9,
+      "assignment": "Week 9: Assignment 9",
+      "question": "Which approach acknowledges women’s productive as well as reproductive roles?",
+      "options": [
+        "Welfare approach",
+        "Development approach",
+        "Gender approach",
+        "Equity approach"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The Equity Approach (introduced during the 1976–1985 UN Decade for Women) recognized women's dual active participation: both productive economic work and unpaid social reproduction.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w9_q8",
+      "week": 9,
+      "assignment": "Week 9: Assignment 9",
+      "question": "What questions are tackled by Gendered Approach to Development (GAD)?",
+      "options": [
+        "Equalities in power sharing",
+        "Equal sharing of household works",
+        "Equal economic independence",
+        "Inequalities in power"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Unlike WID which focused solely on women's integration, the Gender and Development (GAD) approach directly interrogates structural inequalities in power between men and women.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w9_q9",
+      "week": 9,
+      "assignment": "Week 9: Assignment 9",
+      "question": "Which approach is an extension from ‘welfare’ to ‘development’ to ‘empowerment’?",
+      "options": [
+        "Development approach",
+        "Welfare approach",
+        "State and welfare approach",
+        "Feminist approach"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In Caroline Moser's development planning taxonomy, the historical evolution of policy approaches moved sequentially starting as an extension from the residual Welfare approach through antipoverty/efficiency and culminating in Empowerment.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w9_q10",
+      "week": 9,
+      "assignment": "Week 9: Assignment 9",
+      "question": "Who argued that “the process of economic modernization, marginalized women economically and socially and increased their dependence on men”?",
+      "options": [
+        "Ester Boserup",
+        "Georgina Waylen",
+        "Caroline Moser",
+        "Fred Rogers"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Danish economist Ester Boserup in her groundbreaking 1970 work 'Woman's Role in Economic Development' demonstrated that colonial and modernization policies marginalized women's traditional farming and intensified male dominance.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w10_q1",
+      "week": 10,
+      "assignment": "Week 10: Assignment 10",
+      "question": "What is the definition of climate change as per the Working Group II of the Intergovernmental Panel on Climate Change (IPCC)?",
+      "options": [
+        "It refers to any change in the climate over time to natural variability",
+        "It refers to any change in the climate over time as a result of human activity",
+        "It refers to any change in the climate over time, whether due to natural variability or as a result of human activity",
+        "None of these"
+      ],
+      "correctAnswer": 2,
+      "explanation": "IPCC Working Group II defines climate change as any change in climate over time, whether due to natural variability or as a result of anthropogenic activity.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w10_q2",
+      "week": 10,
+      "assignment": "Week 10: Assignment 10",
+      "question": "Which of the following statement/s best characterizes global climate change?",
+      "options": [
+        "It is the identifiable change in the climate of earth as a whole that lasts for an extended period of time",
+        "Due to natural process, it is usually referred to as global climate variability",
+        "It refers to changes forced by human activities that change the atmosphere",
+        "All of these"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Global climate change encompasses multi-decadal identifiable planetary changes, natural background climate variability, and anthropogenic forcing altering atmospheric composition.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w10_q3",
+      "week": 10,
+      "assignment": "Week 10: Assignment 10",
+      "question": "Which of the following process leads to cooling of the earth?",
+      "options": [
+        "When incoming energy from the sun is absorbed by the earth",
+        "When the sun's energy is reflected back into space",
+        "When absorbed energy is released back into space",
+        "None of these"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The earth cools down when thermal energy absorbed by the surface and atmosphere is re-radiated and released back out into space as longwave infrared radiation.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w10_q4",
+      "week": 10,
+      "assignment": "Week 10: Assignment 10",
+      "question": "What was agreed at the First Conference of the Parties (COP 1)?",
+      "options": [
+        "To negotiate emission reduction targets for SARC countries",
+        "To negotiate emission reduction targets for G77 countries",
+        "To negotiate emission reduction targets for BASIC countries",
+        "To negotiate emission reduction targets for industrialized countries"
+      ],
+      "correctAnswer": 3,
+      "explanation": "At COP 1 (1995 in Berlin), parties agreed upon the 'Berlin Mandate', deciding to negotiate legally binding quantified emission limitation and reduction objectives specifically for developed/industrialized countries (Annex I).",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w10_q5",
+      "week": 10,
+      "assignment": "Week 10: Assignment 10",
+      "question": "The earth's temperature depends on _________.",
+      "options": [
+        "Incoming energy from the sun",
+        "Released energy from the earth",
+        "The balance between energy entering and leaving the planet's system",
+        "All of these"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Fundamental planetary thermodynamics dictates that the earth's global mean equilibrium temperature depends on the radiative balance between incoming solar radiation and outgoing terrestrial infrared energy.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w10_q6",
+      "week": 10,
+      "assignment": "Week 10: Assignment 10",
+      "question": "Which of the following national plan/mission focused on sustainable agriculture?",
+      "options": [
+        "National Mission on Sustainable Habitats",
+        "National Mission for Sustainable Agriculture",
+        "National Mission for Sustaining the Himalayan Ecosystem",
+        "None of these"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Under India's National Action Plan on Climate Change (NAPCC), the National Mission for Sustainable Agriculture (NMSA) was established to enhance agricultural productivity and climate resilience.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w10_q7",
+      "week": 10,
+      "assignment": "Week 10: Assignment 10",
+      "question": "What is the full form of UNEP?",
+      "options": [
+        "United Nation Energy Program",
+        "United Nation Environment Program",
+        "United Nation Education Program",
+        "United Nation Ecology Program"
+      ],
+      "correctAnswer": 1,
+      "explanation": "UNEP stands for the United Nations Environment Programme, founded in June 1972 following the Stockholm Conference.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w10_q8",
+      "week": 10,
+      "assignment": "Week 10: Assignment 10",
+      "question": "Which of the following statement is true about ‘infrared radiation’?",
+      "options": [
+        "It has a wavelength and a weaker energy level",
+        "It has a shorter wavelength and a weaker energy level",
+        "It has a longer wavelength and a higher energy level",
+        "It has a longer wavelength and a weaker energy level"
+      ],
+      "correctAnswer": 3,
+      "explanation": "In electromagnetic physics ($E = hc/\\lambda$), infrared radiation possesses a longer wavelength than visible light, and consequently carries a lower/weaker quantum energy level.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w10_q9",
+      "week": 10,
+      "assignment": "Week 10: Assignment 10",
+      "question": "Which of the following process leads to heating of the earth?",
+      "options": [
+        "When incoming energy from the sun is absorbed by the earth",
+        "When the sun's energy is reflected back into space",
+        "When absorbed energy is released back into space",
+        "All of these"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Net warming and heating of the earth occurs when incoming solar shortwave radiation is absorbed by the surface (land and oceans) and atmosphere rather than being reflected.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w10_q10",
+      "week": 10,
+      "assignment": "Week 10: Assignment 10",
+      "question": "In which year was the Kyoto Protocol adopted?",
+      "options": [
+        "1985",
+        "1987",
+        "1992",
+        "1997"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The Kyoto Protocol to the UNFCCC was adopted on 11 December 1997 in Kyoto, Japan, and entered into force in 2005.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w11_q1",
+      "week": 11,
+      "assignment": "Week 11: Assignment 11",
+      "question": "What advantage/s do indigenous knowledge offer?",
+      "options": [
+        "Cost-effective",
+        "Participatory and sustainable development process",
+        "Promotes community engagement",
+        "All of these"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Indigenous knowledge systems offer multiple advantages: they are low-cost, rooted in local biocultural realities, highly participatory, sustainable, and promote local community empowerment.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w11_q2",
+      "week": 11,
+      "assignment": "Week 11: Assignment 11",
+      "question": "Which of the following attributes of ‘formal knowledge’ systems is a disadvantage?",
+      "options": [
+        "Arises from biophysical understanding of ecosystem dynamicity both in space and time",
+        "Deficient in addressing resilience and adaptive capacity of socioecological systems",
+        "Structural and functional attributes of ecosystem have been well studied and elaborated",
+        "Addresses a whole range of ecosystem management-related issues"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A major critique of top-down formal technocratic knowledge is that it is often compartmentalized and deficient in addressing the dynamic resilience and adaptive capacity of linked socio-ecological systems.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w11_q3",
+      "week": 11,
+      "assignment": "Week 11: Assignment 11",
+      "question": "Which of the following is not an example of traditional management systems?",
+      "options": [
+        "Construction of dams and embankments",
+        "Balance in utilization and regeneration of the natural resource base",
+        "Equity and social integrity to achieve the ultimate goal of sustainable livelihood",
+        "All of these"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Large-scale construction of concrete dams and embankments is a modern engineering intervention, not a traditional community-based ecological management system.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w11_q4",
+      "week": 11,
+      "assignment": "Week 11: Assignment 11",
+      "question": "Kuki tribal religious beliefs and practices use are influenced by their ________.",
+      "options": [
+        "Natural environment",
+        "Social milieu",
+        "Psychological space",
+        "Political institution"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Indigenous Kuki cosmological rituals, agricultural ceremonies, and taboos are directly shaped and influenced by their immediate natural forest environment in Northeast India.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w11_q5",
+      "week": 11,
+      "assignment": "Week 11: Assignment 11",
+      "question": "What do the sacred groves represent?",
+      "options": [
+        "Modern means of biodiversity",
+        "Natural vegetation dedicated by local communities to ancestral spirit or deities",
+        "Natural vegetation dedicated by local communities to the industries",
+        "All of these"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sacred groves are patches of communal climax forest vegetation protected by local indigenous communities through traditional religious taboos and dedicated to ancestral spirits or deities.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w11_q6",
+      "week": 11,
+      "assignment": "Week 11: Assignment 11",
+      "question": "What distinguishes ‘formal knowledge’ from ‘traditional ecological knowledge’?",
+      "options": [
+        "Formal knowledge is based on experiential process, while traditional ecological knowledge is textbook-based",
+        "Both formal knowledge and traditional ecological knowledge are based on experiences",
+        "Formal knowledge is based on textbooks, while the traditional ecological knowledge derived through an experiential process",
+        "Both formal knowledge and traditional knowledge are textbook-based"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Formal scientific knowledge is codified, institutionalized, and textbook-based, whereas Traditional Ecological Knowledge (TEK) is intergenerationally transmitted through hands-on experiential processes.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w11_q7",
+      "week": 11,
+      "assignment": "Week 11: Assignment 11",
+      "question": "What do traditional practices and beliefs suggest?",
+      "options": [
+        "Symbiotic relationship of humans and nature",
+        "Social relationship of humans and nature",
+        "Scientific relationship of humans and nature",
+        "Economical relationship of humans and nature"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Traditional tribal knowledge and belief systems emphasize a mutually beneficial, reciprocal, and symbiotic relationship between humans and the natural environment.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w11_q8",
+      "week": 11,
+      "assignment": "Week 11: Assignment 11",
+      "question": "Which among the following practice/s of the indigenous Kuki people serve as a valuable tool in conserving biodiversity?",
+      "options": [
+        "Their ecological knowledge",
+        "Pre-Christian ancestral worship",
+        "Animism",
+        "All of these"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Kuki biodiversity conservation is sustained collectively through indigenous ethno-botanical knowledge, ancestral worship revering nature, and animistic traditions forbidding resource over-extraction.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w11_q9",
+      "week": 11,
+      "assignment": "Week 11: Assignment 11",
+      "question": "What distinguishes ‘traditional ecological knowledge’ from ‘formal knowledge’?",
+      "options": [
+        "Formal knowledge is based on experiential process while TEK is textbook-based",
+        "Both formal and traditional ecological knowledge are based on experiences",
+        "Formal knowledge is based on textbooks, while the traditional ecological knowledge (TEK) derived through an experiential process",
+        "Both formal and traditional knowledge are textbook-based"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Formal knowledge relies on academic codification and textbook instruction, whereas TEK is grounded in oral transmission and direct living experience with local ecosystems.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w11_q10",
+      "week": 11,
+      "assignment": "Week 11: Assignment 11",
+      "question": "What plays a significant role in promoting sustainable utilization and conservation of flora and fauna in the hills?",
+      "options": [
+        "The sacredness related to forests",
+        "The religious beliefs and taboos of the local communities",
+        "Both ‘The sacredness related to forests’ and ‘The religious beliefs and taboos of the local communities’",
+        "None of these"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In hilly tribal regions, community conservation succeeds through both customary sacred forest institutions and cultural taboos that regulate seasonal harvesting of plants and animals.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w12_q1",
+      "week": 12,
+      "assignment": "Week 12: Assignment 12",
+      "question": "How does environmentalists often represented the indigenous groups?",
+      "options": [
+        "As ideal models, not only of ‘harmony with human’ but also of social and emotional coherence, and continuity",
+        "As ideal models, not only of ‘harmony with human’ but also of social and political coherence, and continuity",
+        "As ideal models, not only of ‘harmony with nature’ but also of social and emotional coherence, and continuity",
+        "As ideal models, not only of ‘harmony with nature’ but also of social and political coherence, and continuity"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In environmental anthropology, environmentalists frequently depict indigenous peoples as ideal paradigms not only of 'harmony with nature' but also possessing deep social and emotional coherence and cultural continuity.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w12_q2",
+      "week": 12,
+      "assignment": "Week 12: Assignment 12",
+      "question": "According to Ellen and Harris (2000), what does the term ‘indigenous knowledge’ mean?",
+      "options": [
+        "The commonsensical knowledge of a group of people to a given situation, sometimes used interchangeably with commonsensical knowledge",
+        "The knowledge of a group of scientists to a given situation, sometimes used interchangeably with scientific knowledge",
+        "The knowledge of a group of people local to a given situation, sometimes used interchangeably with local knowledge",
+        "None of these"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Roy Ellen and Holly Harris (2000) defined indigenous knowledge as the cumulative knowledge possessed by a group of people local to a given ecological context, often used interchangeably with local knowledge.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w12_q3",
+      "week": 12,
+      "assignment": "Week 12: Assignment 12",
+      "question": "What is the ‘life project’ supposed to be?",
+      "options": [
+        "Visions of the world and the future that are similar from those embodied by projects promoted by state and markets",
+        "Visions of the world and the future that are distinct from those embodied by projects promoted by state and markets",
+        "Visions of the world and the future that are similar from those embodied by projects promoted by indigenous people",
+        "Visions of the world and the future that are distinct from those embodied by projects promoted by indigenous people"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Anthropologist Mario Blaser and post-development theorists conceptualize 'life projects' as local indigenous communities' autonomous visions of the world, place, and future that stand in sharp contrast to development projects imposed by state and capitalist markets.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w12_q4",
+      "week": 12,
+      "assignment": "Week 12: Assignment 12",
+      "question": "What does traditional environmental knowledge (TEK) refer to?",
+      "options": [
+        "The knowledge that Indigenous peoples have in relation to the society",
+        "The knowledge that Indigenous peoples have in relation to the universe",
+        "The knowledge that Indigenous peoples have in relation to the religion",
+        "The knowledge that Indigenous peoples have in relation to the environment"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Traditional Environmental Knowledge (TEK) refers specifically to the cumulative body of knowledge, practice, and belief regarding the relationships of living beings with one another and with their physical environment.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w12_q5",
+      "week": 12,
+      "assignment": "Week 12: Assignment 12",
+      "question": "The term ‘indigenous knowledge’ as defined by Ellen and Harris (2000) mean:",
+      "options": [
+        "The knowledge of a group of scientists to a given situation, sometimes used interchangeably with scientific knowledge",
+        "The knowledge of a group of people local to a given situation, sometimes used interchangeably with local knowledge",
+        "The commonsensical knowledge of a group of people to a given situation, sometimes used interchangeably with commonsensical knowledge",
+        "All of these"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Ellen and Harris (2000) emphasize that indigenous knowledge is situated knowledge generated by local inhabitants through long-term practical interaction with their specific biome.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w12_q6",
+      "week": 12,
+      "assignment": "Week 12: Assignment 12",
+      "question": "What was the main objective of the World Commission on Environment and Development (WCED)?",
+      "options": [
+        "To enquire into environmental issues in developed countries",
+        "To enquire into environmental issues in developing countries",
+        "To enquire into environmental issues in developed and developing countries",
+        "All of these"
+      ],
+      "correctAnswer": 1,
+      "explanation": "According to the course lectures, a primary thrust of the WCED inquiry was investigating the acute developmental and environmental crises gripping developing countries.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w12_q7",
+      "week": 12,
+      "assignment": "Week 12: Assignment 12",
+      "question": "Sustainable development is a concept derived from _______________.",
+      "options": [
+        "Conventional Western ideology",
+        "Non-conventional Western ideology",
+        "Conventional Eastern ideology",
+        "Non-conventional Eastern ideology"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Critical political ecologists point out that mainstream sustainable development discourse originated within Conventional Western modernist economic ideology, seeking to sustain economic growth alongside conservation.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w12_q8",
+      "week": 12,
+      "assignment": "Week 12: Assignment 12",
+      "question": "Indigenous views of ‘sustainable development’ are concerned with:",
+      "options": [
+        "Taking rather than giving",
+        "Giving rather than taking",
+        "Giving and taking",
+        "A balance between giving and taking"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Indigenous cosmologies are built on principles of reciprocity, reverence, and guardianship—prioritizing 'giving rather than taking' in relation to the earth.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w12_q9",
+      "week": 12,
+      "assignment": "Week 12: Assignment 12",
+      "question": "What distinguishes ‘life projects’ from ‘development initiatives’ in particular?",
+      "options": [
+        "Development projects takes into account the place perspectives and life projects are universal in nature",
+        "Life projects takes into account the place perspectives and development projects are universal in nature",
+        "Development projects takes into account the ecological perspectives and life projects are universal in nature",
+        "All of these"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Life projects are rooted in place-based ecological attachments and cultural uniqueness, whereas conventional top-down development initiatives are universalist and homogenizing in nature.",
+      "type": "mcq",
+      "marks": 1
+    },
+    {
+      "id": "w12_q10",
+      "week": 12,
+      "assignment": "Week 12: Assignment 12",
+      "question": "Who among the following argued that indigenous peoples of the Chaco display the moral ecology of hunter–gatherers?",
+      "options": [
+        "John Renshaw",
+        "Arturo Escobar",
+        "Deborah McGregor",
+        "Von Bremen"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Anthropologist Von Bremen documented the moral ecology and sharing ethos of hunter-gatherer indigenous societies in the Gran Chaco region of South America.",
+      "type": "mcq",
+      "marks": 1
+    }
+  ]
+}
