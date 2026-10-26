@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Navbar from './components/Navbar';
 import Dashboard from './components/Dashboard';
 import PracticeMode from './components/PracticeMode';
+import WeekTest from './components/WeekTest';
 import MockExam from './components/MockExam';
 import ExamResults from './components/ExamResults';
 import QuestionManager from './components/QuestionManager';
@@ -44,6 +45,11 @@ export default function App() {
   const handleSelectWeek = (week) => {
     setSelectedWeek(week);
     setActiveTab('practice');
+  };
+
+  const handleStartWeekTest = (week = 1) => {
+    setSelectedWeek(week);
+    setActiveTab('week-test');
   };
 
   const handleStartExam = () => {
@@ -99,6 +105,7 @@ export default function App() {
             practiceProgress={practiceProgress}
             bookmarks={bookmarks}
             onSelectWeek={handleSelectWeek}
+            onStartWeekTest={handleStartWeekTest}
             onStartExam={handleStartExam}
             onOpenManager={() => setActiveTab('manager')}
           />
@@ -111,9 +118,22 @@ export default function App() {
             bookmarks={bookmarks}
             selectedWeek={selectedWeek}
             onSelectWeek={setSelectedWeek}
+            onStartWeekTest={handleStartWeekTest}
             onSaveAnswer={handleSaveAnswer}
             onToggleBookmark={handleToggleBookmark}
             onResetProgress={handleResetProgress}
+          />
+        )}
+
+        {activeTab === 'week-test' && (
+          <WeekTest
+            courseData={courseData}
+            initialWeek={selectedWeek || 1}
+            onExit={() => setActiveTab('dashboard')}
+            onPracticeWeek={(wk) => {
+              setSelectedWeek(wk);
+              setActiveTab('practice');
+            }}
           />
         )}
 

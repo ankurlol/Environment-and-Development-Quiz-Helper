@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import { 
   Bookmark, 
   CheckCircle2, 
@@ -11,8 +11,10 @@ import {
   Eye, 
   Check, 
   X, 
-  Sparkles 
+  Sparkles,
+  Shuffle
 } from 'lucide-react';
+import { shuffleArray } from '../utils/shuffle';
 
 export default function PracticeMode({ 
   courseData, 
@@ -22,7 +24,8 @@ export default function PracticeMode({
   onToggleBookmark, 
   onResetProgress,
   selectedWeek,
-  onSelectWeek
+  onSelectWeek,
+  onStartWeekTest
 }) {
   const { questions = [], courseInfo } = courseData;
   const [activeWeek, setActiveWeek] = useState(selectedWeek || 1);
@@ -31,8 +34,29 @@ export default function PracticeMode({
   const [focusIndex, setFocusIndex] = useState(0);
   const [instantFeedback, setInstantFeedback] = useState(true);
 
+  // Maintain question order which gets reshuffled on reset
+  const [questionList, setQuestionList] = useState(questions);
+
+  useEffect(() => {
+    setQuestionList(questions);
+  }, [questions]);
+
+  // Reshuffle question list
+  const handleShuffle = () => {
+    setQuestionList((prev) => shuffleArray(prev));
+    setFocusIndex(0);
+  };
+
+  // Reset progress and shuffle questions after every reset
+  const handleResetWithShuffle = () => {
+    if (window.confirm('Reset practice progress and shuffle questions?')) {
+      onResetProgress(activeWeek === 'all' ? null : Number(activeWeek));
+      handleShuffle();
+    }
+  };
+
   const filteredQuestions = useMemo(() => {
-    return questions.filter((q) => {
+    return questionList.filter((q) => {
       if (activeWeek !== 'all' && q.week !== Number(activeWeek)) {
         return false;
       }
@@ -48,7 +72,7 @@ export default function PracticeMode({
       }
       return true;
     });
-  }, [questions, activeWeek, filterType, practiceProgress, bookmarks]);
+  }, [questionList, activeWeek, filterType, practiceProgress, bookmarks]);
 
   const currentFocusQuestion = filteredQuestions[focusIndex] || null;
 
@@ -165,7 +189,7 @@ export default function PracticeMode({
             ))}
           </div>
 
-          <div className="flex items-center space-x-4">
+          <div className="flex items-center space-x-3">
             <label className="flex items-center space-x-2 cursor-pointer select-none">
               <input
                 type="checkbox"
@@ -177,16 +201,31 @@ export default function PracticeMode({
             </label>
 
             <button
-              onClick={() => {
-                if (window.confirm('Reset progress for this view?')) {
-                  onResetProgress(activeWeek === 'all' ? null : Number(activeWeek));
-                }
-              }}
-              title="Reset progress"
-              className="text-[#8c859f] hover:text-[#f87171] transition p-1"
+              onClick={handleShuffle}
+              title="Shuffle question order"
+              className="flex items-center space-x-1 px-2.5 py-1 rounded-lg sre-glass-subcard text-[#8c859f] hover:text-[#c4b5fd] transition text-xs"
+            >
+              <Shuffle className="w-3.5 h-3.5" />
+              <span className="hidden sm:inline">Shuffle</span>
+            </button>
+
+            <button
+              onClick={handleResetWithShuffle}
+              title="Reset progress and shuffle questions"
+              className="flex items-center space-x-1 px-2.5 py-1 rounded-lg sre-glass-subcard text-[#8c859f] hover:text-[#f87171] transition text-xs"
             >
               <RotateCcw className="w-3.5 h-3.5" />
+              <span className="hidden sm:inline">Reset & Shuffle</span>
             </button>
+
+            {onStartWeekTest && activeWeek !== 'all' && (
+              <button
+                onClick={() => onStartWeekTest(Number(activeWeek))}
+                className="sre-btn-primary !py-1 !px-3 text-xs"
+              >
+                <span>Take Week {activeWeek} Test</span>
+              </button>
+            )}
           </div>
         </div>
       </div>

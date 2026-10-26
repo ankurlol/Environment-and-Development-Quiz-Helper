@@ -13,7 +13,7 @@
   --accent-light: #c4b5fd;
   --btn-bg: #6e46e6;
   --btn-hover: #5a32d3;
-  --accent-glow: rgba(110, 70, 230, 0.3);
+  --accent-glow: rgba(110, 70, 230, 0.25);
   --success: #34d399;
   --success-bg: rgba(52, 211, 153, 0.12);
   --danger: #f87171;
@@ -36,7 +36,7 @@
   }
 }
 
-/* SRE Incident Copilot Global WebGL Canvas & Vignette */
+/* Subtler Fluid Canvas (Reduced Glass Distraction) */
 #hero-fluid-canvas {
   position: fixed;
   top: 0;
@@ -45,6 +45,7 @@
   height: 100vh;
   pointer-events: none;
   z-index: 0;
+  opacity: 0.38; /* Toned down glassmorphism background */
 }
 
 .global-fluid-vignette {
@@ -52,21 +53,21 @@
   inset: 0;
   width: 100vw;
   height: 100vh;
-  background: radial-gradient(circle at 65% 35%, rgba(8, 6, 18, 0.2) 0%, rgba(8, 6, 18, 0.58) 55%, rgba(8, 6, 18, 0.88) 100%);
+  background: radial-gradient(circle at 65% 35%, rgba(14, 11, 22, 0.60) 0%, rgba(14, 11, 22, 0.88) 55%, #0e0b16 100%);
   pointer-events: none;
   z-index: 1;
 }
 
-/* EXACT SRE Copilot Glass Cards */
+/* Refined, Highly-Readable SRE Glass Cards (Subtle Glass Effect) */
 .sre-glass-card {
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.015) 100%);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-  border: 1px solid rgba(255, 255, 255, 0.09);
-  border-top: 1px solid rgba(255, 255, 255, 0.22);
-  border-radius: 20px;
-  box-shadow: 0 16px 36px -12px rgba(0, 0, 0, 0.6), inset 0 1px 1px 0 rgba(255, 255, 255, 0.12);
-  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  background: rgba(21, 17, 30, 0.90); /* Increased opacity for sharp text readability */
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 18px;
+  box-shadow: 0 16px 36px -12px rgba(0, 0, 0, 0.6), inset 0 1px 1px 0 rgba(255, 255, 255, 0.06);
+  transition: all 0.22s cubic-bezier(0.16, 1, 0.3, 1);
   position: relative;
   overflow: hidden;
 }
@@ -78,39 +79,38 @@
   left: 0;
   right: 0;
   height: 1.5px;
-  background: linear-gradient(90deg, transparent, rgba(167, 139, 250, 0.8), transparent);
+  background: linear-gradient(90deg, transparent, rgba(167, 139, 250, 0.5), transparent);
   opacity: 0;
-  transition: opacity 0.35s ease;
+  transition: opacity 0.3s ease;
 }
 
 .sre-glass-card:hover {
-  transform: translateY(-4px);
-  border-color: rgba(167, 139, 250, 0.45);
-  border-top-color: rgba(255, 255, 255, 0.4);
-  box-shadow: 0 30px 60px -15px rgba(110, 70, 230, 0.35), 0 0 35px rgba(110, 70, 230, 0.18), inset 0 1px 2px rgba(255, 255, 255, 0.25);
+  transform: translateY(-2px);
+  border-color: rgba(167, 139, 250, 0.35);
+  border-top-color: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 20px 45px -15px rgba(110, 70, 230, 0.20), 0 0 20px rgba(110, 70, 230, 0.08), inset 0 1px 2px rgba(255, 255, 255, 0.14);
 }
 
 .sre-glass-card:hover::before {
   opacity: 1;
 }
 
-/* Step Glass Sub-card */
+/* Refined Subcard */
 .sre-glass-subcard {
-  background: rgba(255, 255, 255, 0.04);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  border-top: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: 16px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35), inset 0 1px 1px rgba(255, 255, 255, 0.1);
-  transition: all 0.25s ease;
+  background: rgba(28, 23, 40, 0.88);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 14px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3), inset 0 1px 1px rgba(255, 255, 255, 0.08);
+  transition: all 0.2s ease;
 }
 
 .sre-glass-subcard:hover {
-  transform: translateY(-2px);
-  border-color: rgba(167, 139, 250, 0.45);
-  background: rgba(255, 255, 255, 0.07);
-  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.45), inset 0 1px 2px rgba(255, 255, 255, 0.18);
+  transform: translateY(-1px);
+  border-color: rgba(167, 139, 250, 0.35);
+  background: rgba(33, 27, 48, 0.90);
 }
 
 /* SRE Pill Badge */
@@ -118,28 +118,27 @@
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  padding: 4px 14px;
+  padding: 4px 12px;
   border-radius: 9999px;
-  background: rgba(110, 70, 230, 0.18);
-  backdrop-filter: blur(8px);
-  border: 1px solid rgba(167, 139, 250, 0.35);
-  font-size: 12.5px;
+  background: rgba(110, 70, 230, 0.16);
+  border: 1px solid rgba(167, 139, 250, 0.32);
+  font-size: 12px;
   font-weight: 600;
   color: var(--accent-light);
 }
 
-/* SRE Copilot Buttons */
+/* SRE Buttons */
 .sre-btn-primary {
   background: #6e46e6 !important;
   color: #ffffff !important;
   border: 1px solid #6e46e6 !important;
-  padding: 10px 22px !important;
+  padding: 9px 20px !important;
   border-radius: 9999px !important;
   font-size: 13.5px !important;
   font-weight: 600 !important;
   cursor: pointer !important;
-  transition: all 0.2s ease !important;
-  box-shadow: 0 4px 18px rgba(110, 70, 230, 0.35) !important;
+  transition: all 0.18s ease !important;
+  box-shadow: 0 4px 16px rgba(110, 70, 230, 0.35) !important;
   display: inline-flex !important;
   align-items: center !important;
   justify-content: center !important;
@@ -150,22 +149,22 @@
 .sre-btn-primary:hover {
   background: #5a32d3 !important;
   border-color: #5a32d3 !important;
-  box-shadow: 0 8px 25px rgba(110, 70, 230, 0.6) !important;
+  box-shadow: 0 6px 22px rgba(110, 70, 230, 0.55) !important;
   transform: translateY(-1px) !important;
 }
 
 .sre-btn-ghost {
-  background: rgba(255, 255, 255, 0.1) !important;
-  backdrop-filter: blur(12px) !important;
-  color: #ffffff !important;
-  border: 1px solid rgba(255, 255, 255, 0.22) !important;
-  padding: 10px 22px !important;
+  background: rgba(255, 255, 255, 0.06) !important;
+  backdrop-filter: blur(8px) !important;
+  color: #f1ecff !important;
+  border: 1px solid rgba(255, 255, 255, 0.16) !important;
+  padding: 9px 20px !important;
   border-radius: 9999px !important;
   font-size: 13.5px !important;
   font-weight: 600 !important;
   cursor: pointer !important;
-  transition: all 0.2s ease !important;
-  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.25) !important;
+  transition: all 0.18s ease !important;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2) !important;
   display: inline-flex !important;
   align-items: center !important;
   justify-content: center !important;
@@ -174,9 +173,8 @@
 }
 
 .sre-btn-ghost:hover {
-  background: rgba(255, 255, 255, 0.18) !important;
-  border-color: rgba(255, 255, 255, 0.4) !important;
-  box-shadow: 0 8px 24px rgba(255, 255, 255, 0.15) !important;
+  background: rgba(255, 255, 255, 0.12) !important;
+  border-color: rgba(255, 255, 255, 0.3) !important;
   transform: translateY(-1px) !important;
 }
 

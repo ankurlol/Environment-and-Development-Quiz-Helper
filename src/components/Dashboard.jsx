@@ -5,7 +5,8 @@ import {
   CheckCircle2, 
   Bookmark, 
   ChevronRight, 
-  Upload
+  Upload,
+  Shuffle
 } from 'lucide-react';
 
 export default function Dashboard({ 
@@ -13,6 +14,7 @@ export default function Dashboard({
   practiceProgress, 
   bookmarks, 
   onSelectWeek, 
+  onStartWeekTest,
   onStartExam, 
   onOpenManager 
 }) {
@@ -105,85 +107,115 @@ export default function Dashboard({
         </div>
       </div>
 
-      {/* Two Modes Cards with True Glassmorphic Depth */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      {/* Three Modes Cards with True Glassmorphic Depth */}
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {/* Card 1: Week-Wise Practice */}
-        <div className="sre-glass-card p-6 sm:p-7 flex flex-col justify-between">
+        <div className="sre-glass-card p-6 flex flex-col justify-between">
           <div>
-            <div className="w-12 h-12 rounded-2xl bg-[#6e46e6]/20 border border-[#6e46e6]/40 backdrop-blur-md flex items-center justify-center text-[#c4b5fd] mb-4 shadow-[0_0_18px_rgba(110,70,230,0.35)]">
-              <BookOpen className="w-6 h-6" />
+            <div className="w-11 h-11 rounded-2xl bg-[#6e46e6]/20 border border-[#6e46e6]/40 backdrop-blur-md flex items-center justify-center text-[#c4b5fd] mb-4 shadow-[0_0_18px_rgba(110,70,230,0.35)]">
+              <BookOpen className="w-5 h-5" />
             </div>
             <div className="flex items-center justify-between">
-              <h3 className="text-base sm:text-lg font-bold text-[#f1ecff]">Week-Wise Practice</h3>
-              <span className="text-[11px] font-semibold px-2.5 py-0.5 rounded-full bg-white/5 text-[#8c859f] border border-white/10">
+              <h3 className="text-base font-bold text-[#f1ecff]">Week-Wise Practice</h3>
+              <span className="text-[10px] font-semibold px-2 py-0.5 rounded-full bg-white/5 text-[#8c859f] border border-white/10">
                 Self-Paced
               </span>
             </div>
-            <p className="mt-2 text-xs sm:text-sm text-[#8c859f] leading-relaxed">
-              Study assignment questions organized week by week. Get instant answers, comprehensive academic explanations, and bookmark challenging items for review.
+            <p className="mt-2 text-xs text-[#8c859f] leading-relaxed">
+              Study assignment questions organized week by week. Get instant answers, comprehensive academic explanations, and bookmark items.
             </p>
-            <ul className="mt-4 space-y-2 text-xs text-[#8c859f]">
+            <ul className="mt-4 space-y-1.5 text-xs text-[#8c859f]">
               <li className="flex items-center space-x-2">
-                <CheckCircle2 className="w-4 h-4 text-[#34d399] shrink-0" />
-                <span>Instant answer check & verified solution reasoning</span>
+                <CheckCircle2 className="w-3.5 h-3.5 text-[#34d399] shrink-0" />
+                <span>Instant answer verification</span>
               </li>
               <li className="flex items-center space-x-2">
-                <CheckCircle2 className="w-4 h-4 text-[#34d399] shrink-0" />
-                <span>Filter by unattempted, incorrect, or bookmarked items</span>
-              </li>
-              <li className="flex items-center space-x-2">
-                <CheckCircle2 className="w-4 h-4 text-[#34d399] shrink-0" />
-                <span>All {courseInfo.totalWeeks || 12} weeks systematically categorized</span>
+                <CheckCircle2 className="w-3.5 h-3.5 text-[#34d399] shrink-0" />
+                <span>Filter by wrong & bookmarked</span>
               </li>
             </ul>
           </div>
 
-          <div className="mt-6 pt-5 border-t border-white/10">
+          <div className="mt-6 pt-4 border-t border-white/10">
             <button
               onClick={() => onSelectWeek('all')}
-              className="w-full flex items-center justify-center space-x-2 py-2.5 px-4 rounded-xl sre-btn-ghost text-xs font-semibold"
+              className="w-full flex items-center justify-center space-x-2 py-2 px-4 rounded-xl sre-btn-ghost text-xs font-semibold"
             >
-              <span>Explore All Questions</span>
+              <span>Explore Practice</span>
               <ChevronRight className="w-3.5 h-3.5" />
             </button>
           </div>
         </div>
 
-        {/* Card 2: Grand Random Mock Exam */}
-        <div className="sre-glass-card p-6 sm:p-7 flex flex-col justify-between">
+        {/* Card 2: Week-Wise Shuffled Test */}
+        <div className="sre-glass-card p-6 flex flex-col justify-between border-[#6e46e6]/30">
           <div>
-            <div className="w-12 h-12 rounded-2xl bg-[#6e46e6]/20 border border-[#6e46e6]/40 backdrop-blur-md flex items-center justify-center text-[#c4b5fd] mb-4 shadow-[0_0_18px_rgba(110,70,230,0.35)]">
-              <Timer className="w-6 h-6" />
+            <div className="w-11 h-11 rounded-2xl bg-[#6e46e6]/30 border border-[#6e46e6]/60 backdrop-blur-md flex items-center justify-center text-white mb-4 shadow-[0_0_20px_rgba(110,70,230,0.5)]">
+              <Shuffle className="w-5 h-5 text-[#c4b5fd]" />
             </div>
             <div className="flex items-center justify-between">
-              <h3 className="text-base sm:text-lg font-bold text-[#f1ecff]">Grand Mock Exam</h3>
-              <span className="text-[11px] font-semibold px-2.5 py-0.5 rounded-full bg-[#6e46e6]/20 text-[#c4b5fd] border border-[#6e46e6]/40">
-                TCS iON Simulation
+              <h3 className="text-base font-bold text-[#f1ecff]">Week-Wise Test</h3>
+              <span className="text-[10px] font-semibold px-2 py-0.5 rounded-full bg-[#6e46e6]/25 text-[#c4b5fd] border border-[#6e46e6]/50">
+                Shuffled Q&A
               </span>
             </div>
-            <p className="mt-2 text-xs sm:text-sm text-[#8c859f] leading-relaxed">
-              Simulate the authentic computer-based test (CBT) environment. Contains randomized questions across all weeks, live timer, and the official question palette.
+            <p className="mt-2 text-xs text-[#8c859f] leading-relaxed">
+              Take 1-by-1 question tests for any week. Every test completely randomizes both question sequence and option choices (A, B, C, D).
             </p>
-            <ul className="mt-4 space-y-2 text-xs text-[#8c859f]">
+            <ul className="mt-4 space-y-1.5 text-xs text-[#8c859f]">
               <li className="flex items-center space-x-2">
-                <CheckCircle2 className="w-4 h-4 text-[#c4b5fd] shrink-0" />
-                <span>Official Question Palette (Answered, Review, Not Visited)</span>
+                <CheckCircle2 className="w-3.5 h-3.5 text-[#c4b5fd] shrink-0" />
+                <span>1-by-1 focused question layout</span>
               </li>
               <li className="flex items-center space-x-2">
-                <CheckCircle2 className="w-4 h-4 text-[#c4b5fd] shrink-0" />
-                <span>Configurable question count and countdown time limit</span>
-              </li>
-              <li className="flex items-center space-x-2">
-                <CheckCircle2 className="w-4 h-4 text-[#c4b5fd] shrink-0" />
-                <span>Detailed scorecard and performance evaluation</span>
+                <CheckCircle2 className="w-3.5 h-3.5 text-[#c4b5fd] shrink-0" />
+                <span>Shuffled questions & options</span>
               </li>
             </ul>
           </div>
 
-          <div className="mt-6 pt-5 border-t border-white/10">
+          <div className="mt-6 pt-4 border-t border-white/10">
+            <button
+              onClick={() => onStartWeekTest ? onStartWeekTest(1) : onSelectWeek(1)}
+              className="w-full flex items-center justify-center space-x-2 py-2 px-4 rounded-xl sre-btn-primary text-xs font-semibold"
+            >
+              <Shuffle className="w-3.5 h-3.5" />
+              <span>Launch Week Test</span>
+            </button>
+          </div>
+        </div>
+
+        {/* Card 3: Grand Random Mock Exam */}
+        <div className="sre-glass-card p-6 flex flex-col justify-between">
+          <div>
+            <div className="w-11 h-11 rounded-2xl bg-[#6e46e6]/20 border border-[#6e46e6]/40 backdrop-blur-md flex items-center justify-center text-[#c4b5fd] mb-4 shadow-[0_0_18px_rgba(110,70,230,0.35)]">
+              <Timer className="w-5 h-5" />
+            </div>
+            <div className="flex items-center justify-between">
+              <h3 className="text-base font-bold text-[#f1ecff]">Grand Mock Exam</h3>
+              <span className="text-[10px] font-semibold px-2 py-0.5 rounded-full bg-white/5 text-[#8c859f] border border-white/10">
+                TCS iON CBT
+              </span>
+            </div>
+            <p className="mt-2 text-xs text-[#8c859f] leading-relaxed">
+              Simulate the authentic computer-based test environment. Live countdown timer, TCS iON question palette, and comprehensive final evaluation.
+            </p>
+            <ul className="mt-4 space-y-1.5 text-xs text-[#8c859f]">
+              <li className="flex items-center space-x-2">
+                <CheckCircle2 className="w-3.5 h-3.5 text-[#34d399] shrink-0" />
+                <span>Full exam question palette</span>
+              </li>
+              <li className="flex items-center space-x-2">
+                <CheckCircle2 className="w-3.5 h-3.5 text-[#34d399] shrink-0" />
+                <span>Configurable questions & time</span>
+              </li>
+            </ul>
+          </div>
+
+          <div className="mt-6 pt-4 border-t border-white/10">
             <button
               onClick={onStartExam}
-              className="w-full flex items-center justify-center space-x-2 py-2.5 px-4 rounded-xl sre-btn-primary text-xs font-semibold"
+              className="w-full flex items-center justify-center space-x-2 py-2 px-4 rounded-xl sre-btn-ghost text-xs font-semibold"
             >
               <span>Launch Mock Test</span>
               <ChevronRight className="w-3.5 h-3.5" />
@@ -259,14 +291,31 @@ export default function Dashboard({
                   </div>
                 </div>
 
-                <div className="mt-4 pt-3 border-t border-white/10 flex items-center justify-between text-xs">
-                  <span className="text-[#8c859f] text-[11px]">
-                    {wkAnswered > 0 ? `${wkAccuracy}% Accuracy` : 'Not Started'}
-                  </span>
-                  <span className="font-semibold text-[#c4b5fd] group-hover:translate-x-0.5 transition flex items-center space-x-0.5 text-xs">
+                <div className="mt-4 pt-3 border-t border-white/10 flex items-center justify-between text-xs gap-2">
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      onSelectWeek(wk);
+                    }}
+                    className="flex items-center space-x-1 text-[#8c859f] hover:text-[#f1ecff] transition py-1 text-xs"
+                  >
                     <span>Practice</span>
-                    <ChevronRight className="w-3.5 h-3.5" />
-                  </span>
+                    <ChevronRight className="w-3 h-3" />
+                  </button>
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      if (onStartWeekTest) {
+                        onStartWeekTest(wk);
+                      } else {
+                        onSelectWeek(wk);
+                      }
+                    }}
+                    className="flex items-center space-x-1 px-2.5 py-1 rounded-lg bg-[#6e46e6]/20 border border-[#6e46e6]/40 text-[#c4b5fd] hover:bg-[#6e46e6] hover:text-white transition font-semibold text-xs shadow-sm"
+                  >
+                    <Shuffle className="w-3 h-3" />
+                    <span>Take Test</span>
+                  </button>
                 </div>
               </div>
             );

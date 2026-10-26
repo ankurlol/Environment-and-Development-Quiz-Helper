@@ -6,7 +6,8 @@ import {
   Bookmark, 
   Settings, 
   LayoutDashboard,
-  CheckCircle2
+  CheckCircle2,
+  Shuffle
 } from 'lucide-react';
 
 export default function Navbar({ activeTab, setActiveTab, courseInfo, bookmarksCount, answeredCount, totalCount }) {
@@ -92,6 +93,21 @@ export default function Navbar({ activeTab, setActiveTab, courseInfo, bookmarksC
           >
             <BookOpen className="w-3.5 h-3.5" />
             <span>Week-Wise Practice</span>
+          </button>
+
+          <button
+            onClick={() => setActiveTab('week-test')}
+            className={`flex items-center space-x-2 px-3.5 py-1.5 rounded-xl text-xs font-semibold transition whitespace-nowrap ${
+              activeTab === 'week-test'
+                ? 'bg-white/15 text-white border border-white/25 shadow-lg backdrop-blur-md'
+                : 'text-[#8c859f] hover:text-[#c4b5fd] hover:bg-white/5'
+            }`}
+          >
+            <Shuffle className="w-3.5 h-3.5" />
+            <span>Week Test</span>
+            <span className="px-1.5 py-0.2 rounded text-[9px] uppercase tracking-wider font-bold bg-[#6e46e6]/30 text-[#c4b5fd] border border-[#6e46e6]/40">
+              Shuffled
+            </span>
           </button>
 
           <button
