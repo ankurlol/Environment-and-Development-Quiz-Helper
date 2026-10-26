@@ -1,6 +1,8 @@
-# NPTEL Quiz & Exam Practice Platform 🎓
+# NPTEL Quiz & Exam Practice Platform
 
-A modern, responsive, offline-ready web platform tailored for students preparing for **NPTEL / Swayam Online Certification Courses**.
+**Live Deployment**: [https://ankurlol.github.io/Environment-and-Development-Quiz-Helper/](https://ankurlol.github.io/Environment-and-Development-Quiz-Helper/)
+
+Official examination preparation platform for **Environment and Development** (Indian Institute of Technology Guwahati).
 
 ---
 
